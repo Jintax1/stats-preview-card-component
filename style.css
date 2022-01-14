@@ -1,34 +1,60 @@
 @import url(https://fonts.google.com/specimen/Inter);
 @import url(https://fonts.google.com/specimen/Lexend+Deca);
 
-html body {
-    width: 100vh;
-    height: 100vh;
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     font-size: 15px;
 }
 
+img {
+    mix-blend-mode: color-dodge;
+    background: hsl(277, 64%, 61%);
+}
+
 .whole {
-    width: 1440px;
+    width: 1080px;
     height: 446px;    
     display: flex;
     flex-direction: row;
-    background-color: hsl(233, 47%, 7%);
+    background-color: hsl(244, 38%, 16%);
     color: white;
-    font-family: "Lexend Deca";
 }
 
 .left{
-    margin: 4em 8em 4em 4em;
+    margin: 6em 10em 6em 6em;
 }
 
 .header {
     font-size: 32px;
     flex-wrap: nowrap;
     margin-bottom: 16px;
+    font-family: "Lexend Deca";
     font-weight: 900;
+}
+
+.purple {
+    display: inline;
+    color: hsl(277, 64%, 61%);
+}
+
+.text {
     font-family: "Inter";
+    margin-bottom: 64px;
+}
+
+.attribution {
+    color: white;
 }
