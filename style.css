@@ -1,5 +1,4 @@
-@import url(https://fonts.google.com/specimen/Inter);
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
 
 html {
     width: 100%;
@@ -21,7 +20,7 @@ body {
 
 img {
     mix-blend-mode: color-dodge;
-    background: hsl(277, 64%, 61%);
+    background: hsl(277, 98%, 21%);
 }
 
 .whole {
@@ -34,7 +33,10 @@ img {
 }
 
 .left{
-    margin: 6em 10em 6em 6em;
+    margin: 4em 7em 6em 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .header {
@@ -76,9 +78,11 @@ img {
     font-weight: 900;
     gap: 1em;
     margin-bottom: 6px;
+    font-family: "Lexend Deca";
 }
 
 .item {
     color: hsla(0, 0%, 100%, 0.75);
     gap: 1em;
+    font-family: "Inter";
 }
