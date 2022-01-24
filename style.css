@@ -53,8 +53,32 @@ img {
 .text {
     font-family: "Inter";
     margin-bottom: 64px;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 .attribution {
     color: white;
+}
+
+.wholenum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.single{
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 1.5em;
+    font-weight: 900;
+    gap: 1em;
+    margin-bottom: 6px;
+}
+
+.item {
+    color: hsla(0, 0%, 100%, 0.75);
+    gap: 1em;
 }
